@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chf.helloworld">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.chf.helloworld.HelloWorld"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chf.helloworld.TextViewsAndImages"
+            android:label="TextViewsAndImages"></activity>
+        <activity
+            android:name="com.chf.helloworld.Tiling"
+            android:label="Tiling"></activity>
+        <activity
+            android:name="com.chf.helloworld.Toasty"
+            android:label="Toasty"></activity>
+        <activity
+            android:name="com.chf.helloworld.RadioButtons"
+            android:label="RadioButtons"></activity>
+        <activity
+            android:name="com.chf.helloworld.ListViewActivity"
+            android:label="ListViewActivity"></activity>
+        <activity
+            android:name="com.chf.helloworld.ImageViewActivity"
+            android:label="ImageViewActivity"></activity>
+        <activity
+            android:name="com.chf.helloworld.FavoriteButton"
+            android:label="FavoriteButton"></activity>
+        <activity
+            android:name="com.chf.helloworld.CheckBoxes"
+            android:label="CheckBoxes"></activity>
+        <activity
+            android:name="com.chf.helloworld.BookActivity"
+            android:label="BookActivity"></activity>
+        <activity
+            android:name="com.chf.helloworld.GridViewActivity"
+            android:label="GridViewActivity"></activity>
+        <activity
+            android:name="com.chf.helloworld.SICalculatorActivity"
+            android:label="SICalculatorActivity"></activity>
+        <activity
+            android:name="com.chf.helloworld.HomeScreen"
+            android:label="HomeScreen"></activity>
+        <activity
+            android:name="com.chf.helloworld.TrafficLights"
+            android:label="TrafficLights"></activity>
+        <activity
+            android:name="com.chf.helloworld.DialogActivity"
+            android:label="@string/title_activity_dialog"></activity>
+        <activity
+            android:name="com.chf.helloworld.ListDialogActivity"
+            android:label="@string/title_activity_list_dialog"></activity>
+        <activity
+            android:name="com.chf.helloworld.VibrateActivity"
+            android:label="@string/title_activity_vibrate"></activity>
+        <activity
+            android:name="com.chf.helloworld.BrowseInternet"
+            android:label="@string/title_activity_browse_internet"></activity>
+        <activity
+            android:name="com.chf.helloworld.PhoneCallActivity"
+            android:label="@string/title_activity_phone_call"></activity>
+        <activity
+            android:name="com.chf.helloworld.SendSMSActivity"
+            android:label="@string/title_activity_send_sms"></activity>
+        <activity
+            android:name="com.chf.helloworld.SendEmailActivity"
+            android:label="@string/title_activity_send_email"></activity>
+        <activity
+            android:name="com.chf.helloworld.PreferencesActivity"
+            android:label="@string/title_activity_preferences"></activity>
+        <activity
+            android:name="com.chf.helloworld.ToDoActivity"
+            android:label="@string/title_activity_to_do"></activity>
+    </application>
+
+</manifest>

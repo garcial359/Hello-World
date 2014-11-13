@@ -1,0 +1,173 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".HelloWorld">
+
+        <Button
+            android:id="@+id/toDoActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="To Do List" />
+
+        <Button
+            android:id="@+id/textViewsAndImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Text Views And Images Example" />
+
+        <Button
+            android:id="@+id/homeScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Manipulating Layouts Example" />
+
+        <Button
+            android:id="@+id/trafficLights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Traffic Lights Example" />
+
+        <Button
+            android:id="@+id/tiling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Tiling Example" />
+
+        <Button
+            android:id="@+id/toasty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Toast Example" />
+
+        <Button
+            android:id="@+id/radioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Radio Button Example" />
+
+        <Button
+            android:id="@+id/listViewActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="List View Example" />
+
+        <Button
+            android:id="@+id/imageViewActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Image View Example" />
+
+        <Button
+            android:id="@+id/favoriteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Custom Button Example" />
+
+        <Button
+            android:id="@+id/checkBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Check Box Example" />
+
+        <Button
+            android:id="@+id/bookActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Book Store List View Example" />
+
+        <Button
+            android:id="@+id/gridViewActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Flags Grid View Example" />
+
+        <Button
+            android:id="@+id/siCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Simple Interest Calculator Example" />
+
+        <Button
+            android:id="@+id/dialogActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Dialog Example" />
+
+        <Button
+            android:id="@+id/listDialogActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="List Dialog Example" />
+
+        <Button
+            android:id="@+id/vibrateActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Vibrate Example" />
+
+        <Button
+            android:id="@+id/browseInternetActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Browse Internet Example" />
+
+        <Button
+            android:id="@+id/phoneCallActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Phone Call Example" />
+
+        <Button
+            android:id="@+id/sendSMSActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Text Message Example" />
+
+        <Button
+            android:id="@+id/sendEmailActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Send Email Example" />
+
+        <Button
+            android:id="@+id/preferencesActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:text="Modifying Preferences Example" />
+
+
+    </LinearLayout>
+</ScrollView>

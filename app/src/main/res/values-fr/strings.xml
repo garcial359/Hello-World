@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bonjour Monde</string>
+    <string name="hello_world">Bonjour Monde!</string>
+    <string name="action_settings">paramètres</string>
+    <string name="android">Android</string>
+    <string name="android_summery">Android est un système dexploitation open source qui fonctionne sur une variété de dispositifs.</string>
+    <string name="apples">Pommes</string>
+    <string name="apples_summery" formatted="false">Le coût de pommes %d est %.2f.</string>
+
+</resources>
